@@ -1,0 +1,109 @@
+
+.BoxClass{
+  text-align: center;
+  
+}
+.Blog span{
+    font-size: 2rem;
+    font-family: 'Nerko One', cursive;
+}
+.Blog span:hover{
+  cursor: pointer;
+}
+.loginBg {
+  background-image: url("https://picsum.photos/1600/900");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer{
+  background-color: rgba(255,255,255, 0.8);
+  margin: 4rem;
+  width:30vh;
+  border-radius: 10px;
+}
+
+.googleImg{
+  width:70px;
+
+}
+.buttonImgClass{
+  height:8vh;
+}
+button h4{
+  color: #fff;
+  padding-right: 4px;
+}
+.cardContainer{
+  
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.titleDashboard{
+  text-align: center;
+  font-size: 2.5rem;
+font-family: 'Nerko One', cursive;
+color: #1e3799;
+}
+.titleDashboard span{
+  font-size: 3rem;
+}
+.MainComp{
+  background-color: #dcdde1;
+}
+.resul{
+  display:flex;
+}
+.resul > p {
+  font-family: 'Concert One', cursive;
+  font-style: italic;
+}
+.link {
+  color: #0b5ed7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#svgDelete{
+  width:25px;
+  color:gray;
+  cursor: pointer;
+}
+#svgEdit{
+  width:25px;
+  color:gray;
+  cursor: pointer;
+}
+.login-container{
+  min-width: 100vw;
+  
+  height: calc(100vh - 64px);
+  background-image: url(https://picsum.photos/1600/900);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.login-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  max-width: 500px;
+  margin: auto ;
+  padding: 2rem 3rem;
+}
+.login-avatar{
+  background-color: #046582;
+  border-radius: 50%;
+  padding: 2rem;
+
+}
